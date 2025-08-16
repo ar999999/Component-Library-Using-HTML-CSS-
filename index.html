@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Component Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="nav flex space-between align-center p-1 bg-dark text-light">
+    <div class="logo">MyUI</div>
+    <ul class="flex gap-1">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Components</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- BUTTONS -->
+  <section class="p-2">
+    <h2 class="text-center">Buttons</h2>
+    <div class="flex gap-1 justify-center mt-1">
+      <button class="btn btn-primary animate-pop">Primary</button>
+      <button class="btn btn-outline animate-pop">Outline</button>
+      <button class="btn btn-success animate-pop">Success</button>
+      <button class="btn btn-danger animate-pop">Danger</button>
+    </div>
+  </section>
+
+  <!-- CARDS -->
+  <section class="p-2 bg-light">
+    <h2 class="text-center">Cards</h2>
+    <div class="flex gap-2 justify-center wrap mt-1">
+      <div class="card animate-fade">
+        <img src="https://via.placeholder.com/300x150" alt="Card Image">
+        <h3>Card Title</h3>
+        <p>This is a reusable card component.</p>
+        <button class="btn btn-primary">Read More</button>
+      </div>
+
+      <div class="card animate-fade">
+        <img src="https://via.placeholder.com/300x150" alt="Card Image">
+        <h3>Another Card</h3>
+        <p>Cards are perfect for showing content previews.</p>
+        <button class="btn btn-outline">Details</button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
